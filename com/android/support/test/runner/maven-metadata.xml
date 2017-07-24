@@ -2,6 +2,7 @@
 <metadata>
   <groupId>com.android.support.test</groupId>
   <artifactId>runner</artifactId>
+  <version>1.0.0</version>
   <versioning>
     <release>1.0.0</release>
     <versions>
