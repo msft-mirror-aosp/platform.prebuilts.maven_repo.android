@@ -2,7 +2,6 @@
 <metadata>
   <groupId>com.android.support.test.espresso</groupId>
   <artifactId>espresso-intents</artifactId>
-  <version>3.0.0</version>
   <versioning>
     <release>3.0.0</release>
     <versions>
