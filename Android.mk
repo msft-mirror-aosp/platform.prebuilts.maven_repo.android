@@ -46,3 +46,25 @@ LOCAL_SDK_VERSION := 8
 # Uninstallable static Java libraries.
 LOCAL_UNINSTALLABLE_MODULE := true
 include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := apptoolkit-lifecycle-extensions
+LOCAL_MODULE_TAGS := optional
+LOCAL_SRC_FILES := android/arch/lifecycle/extensions/1.0.0/extensions-1.0.0.aar
+LOCAL_MODULE_CLASS := JAVA_LIBRARIES
+LOCAL_MODULE_SUFFIX := $(COMMON_JAVA_PACKAGE_SUFFIX)
+LOCAL_SDK_VERSION := 8
+# Uninstallable static Java libraries.
+LOCAL_UNINSTALLABLE_MODULE := true
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := apptoolkit-lifecycle-common-java8
+LOCAL_MODULE_TAGS := optional
+LOCAL_SRC_FILES := android/arch/lifecycle/common-java8/1.0.0/common-java8-1.0.0.jar
+LOCAL_MODULE_CLASS := JAVA_LIBRARIES
+LOCAL_MODULE_SUFFIX := $(COMMON_JAVA_PACKAGE_SUFFIX)
+LOCAL_SDK_VERSION := 8
+# Uninstallable static Java libraries.
+LOCAL_UNINSTALLABLE_MODULE := true
+include $(BUILD_PREBUILT)
