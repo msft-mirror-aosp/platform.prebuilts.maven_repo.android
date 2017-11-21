@@ -26,6 +26,17 @@ LOCAL_UNINSTALLABLE_MODULE := true
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
+LOCAL_MODULE := apptoolkit-arch-core-runtime
+LOCAL_MODULE_TAGS := optional
+LOCAL_SRC_FILES := android/arch/core/runtime/1.0.0/runtime-1.0.0.aar
+LOCAL_MODULE_CLASS := JAVA_LIBRARIES
+LOCAL_MODULE_SUFFIX := $(COMMON_JAVA_PACKAGE_SUFFIX)
+LOCAL_SDK_VERSION := 8
+# Uninstallable static Java libraries.
+LOCAL_UNINSTALLABLE_MODULE := true
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
 LOCAL_MODULE := apptoolkit-lifecycle-common
 LOCAL_MODULE_TAGS := optional
 LOCAL_SRC_FILES := android/arch/lifecycle/common/1.0.3/common-1.0.3.jar
