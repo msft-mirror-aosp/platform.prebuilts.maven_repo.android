@@ -32,6 +32,7 @@ LOCAL_SRC_FILES := android/arch/core/runtime/1.0.0/runtime-1.0.0.aar
 LOCAL_MODULE_CLASS := JAVA_LIBRARIES
 LOCAL_MODULE_SUFFIX := $(COMMON_JAVA_PACKAGE_SUFFIX)
 LOCAL_SDK_VERSION := 8
+LOCAL_USE_AAPT2 := true
 # Uninstallable static Java libraries.
 LOCAL_UNINSTALLABLE_MODULE := true
 include $(BUILD_PREBUILT)
@@ -54,6 +55,7 @@ LOCAL_SRC_FILES := android/arch/lifecycle/runtime/1.0.3/runtime-1.0.3.aar
 LOCAL_MODULE_CLASS := JAVA_LIBRARIES
 LOCAL_MODULE_SUFFIX := $(COMMON_JAVA_PACKAGE_SUFFIX)
 LOCAL_SDK_VERSION := 8
+LOCAL_USE_AAPT2 := true
 # Uninstallable static Java libraries.
 LOCAL_UNINSTALLABLE_MODULE := true
 include $(BUILD_PREBUILT)
@@ -65,6 +67,7 @@ LOCAL_SRC_FILES := android/arch/lifecycle/extensions/1.0.0/extensions-1.0.0.aar
 LOCAL_MODULE_CLASS := JAVA_LIBRARIES
 LOCAL_MODULE_SUFFIX := $(COMMON_JAVA_PACKAGE_SUFFIX)
 LOCAL_SDK_VERSION := 8
+LOCAL_USE_AAPT2 := true
 # Uninstallable static Java libraries.
 LOCAL_UNINSTALLABLE_MODULE := true
 include $(BUILD_PREBUILT)
