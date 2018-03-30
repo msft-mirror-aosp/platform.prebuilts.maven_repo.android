@@ -3,9 +3,10 @@
   <groupId>androidx.contentpaging</groupId>
   <artifactId>contentpaging</artifactId>
   <versioning>
+    <release>1.0.0-alpha1</release>
     <versions>
-      <version>1.0.0-SNAPSHOT</version>
+      <version>1.0.0-alpha1</version>
     </versions>
-    <lastUpdated>20180319215817</lastUpdated>
+    <lastUpdated>20180327013602</lastUpdated>
   </versioning>
 </metadata>
