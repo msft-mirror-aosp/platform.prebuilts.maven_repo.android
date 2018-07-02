@@ -30,7 +30,7 @@
     <dependency>
       <groupId>com.google.android.material</groupId>
       <artifactId>material</artifactId>
-      <version>1.0.0-alpha1</version>
+      <version>1.0.0-beta01</version>
       <type>aar</type>
       <scope>compile</scope>
       <exclusions>
